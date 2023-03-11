@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Button Clicker</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="navbar">
+                <h1 class="title">Dojonary</h1>
+                <form action="https://www.google.com/search">
+                    <label for="text-box"></label>
+                    <input type="text" name="q" id="text-box" placeholder="Search" class="search-bar">
+                </form>
+                <button class="btn-nav" onclick="login (this)">Login</button>
+            </div>
+        </div>
+        <div class="main">
+            <div class="colLeft-2">
+                <div class="box-def">
+                    <div class="content">
+                        <h1>ninja</h1>
+                        <p><em>noun</em></p>
+                        <p>Plural: <em>ninjas</em></p>
+                        <button class="btn-like" onclick="message()">13 likes</button>
+                    </div>
+                    <p class="text-def">A practitioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a></p>
+                </div>
+                <div class="box-def">
+                    <div class="content">
+                        <h1>ninja</h1>
+                        <p><em>noun</em></p>
+                        <p>Plural: <em>ninjas</em></p>
+                        <button class="btn-like" onclick="message()">37 likes</button>
+                    </div>
+                    <p class="text-def">A <a href="#">programmer</a> who breaks down problems with <a href="#">zen</a>-like focus</p>
+                </div>
+            </div>
+            <div class="colRight-1">
+                <div class="box">
+                    <h2>Dojonary is defined by YOU</h2>
+                    <button class="btn-add" onclick="hide(this)">Add Definition</button>
+                </div>
+            </div>
+        </div>
+
+
+        
+        <script src="scripts.js" async defer></script>
+    </body>
+</html>

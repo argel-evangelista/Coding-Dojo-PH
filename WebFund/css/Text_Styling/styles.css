@@ -1,0 +1,32 @@
+
+h1 {
+    color: #fff;
+    background-color: #000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 5px;
+    padding-left: 20px;
+    margin-bottom: 5px;
+}
+
+span {
+    color:#01fffd;
+}
+
+h2 {
+    color: #fff;
+    font-style: italic;
+    background-color:#673298;
+    text-align: center;
+    padding: 5px;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+h3 {
+    color: #241c5c;
+    background-color: #9ec4f9;
+    text-decoration: underline;
+    text-align: right; 
+    padding: 5px;
+    margin: 0;
+}

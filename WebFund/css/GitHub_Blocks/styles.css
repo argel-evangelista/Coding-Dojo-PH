@@ -1,0 +1,43 @@
+.container {
+    margin: auto;
+    width: 800px;
+    padding: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: bisque;
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+
+}
+
+img {
+    height: 200px;
+}
+
+
+.bizzare {
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px;
+    padding: 20px;
+}
+
+.boxed  {
+    background-color:cornflowerblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+    margin: 20px;
+}
+
+.startrek {
+    background-color:darkgoldenrod;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 20px;
+}
